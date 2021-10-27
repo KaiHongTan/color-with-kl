@@ -126,6 +126,16 @@ const Chinesearts = () => {
 
   return (
     <div className="App2">
+      <div className="preload">
+        <img src={emptypic} />
+        <img src={cpc} />
+        <img src={fd} />
+        <img src={ld} />
+        <img src={cpcld} />
+        <img src={fdcpc} />
+        <img src={fdld} />
+        <img src={all} />
+      </div>
       <div>
         <ChineseartsImage
           src={image}

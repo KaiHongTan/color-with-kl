@@ -75,6 +75,12 @@ const Malaycostume = () => {
 
   return (
     <div className="App2">
+      <div className="preload">
+        <img src={emptypic} />
+        <img src={bk} />
+        <img src={bm} />
+        <img src={all} />
+      </div>
       <div>
         <MalaycostumeImage
           src={image}

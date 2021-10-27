@@ -126,6 +126,16 @@ const Malayarts = () => {
 
   return (
     <div className="App2">
+      <div className="preload">
+        <img src={emptypic} />
+        <img src={bt} />
+        <img src={slt} />
+        <img src={wk} />
+        <img src={btwk} />
+        <img src={sltbt} />
+        <img src={sltwk} />
+        <img src={all} />
+      </div>
       <div>
         <MalayartsImage
           src={image}

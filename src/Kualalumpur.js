@@ -118,7 +118,7 @@ const Kualalumpur = () => {
           setImage(mitecmatrade);
           break;
         case tt:
-          setImage(mitectt);
+          setImage(matradett);
           break;
       }
       checkFood(food);
@@ -307,6 +307,24 @@ const Kualalumpur = () => {
 
   return (
     <div className="App2">
+      <div className="preload">
+        <img src={emptypic} />
+        <img src={klt} />
+        <img src={kltmatrade} />
+        <img src={kltmatrademitec} />
+        <img src={kltmatradett} />
+        <img src={kltmitec} />
+        <img src={kltmitectt} />
+        <img src={klttt} />
+        <img src={matrade} />
+        <img src={matradett} />
+        <img src={mitec} />
+        <img src={mitecmatrade} />
+        <img src={mitecmatradett} />
+        <img src={mitectt} />
+        <img src={tt} />
+        <img src={all} />
+      </div>
       <div>
         <KlImage
           src={image}
