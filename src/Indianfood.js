@@ -126,6 +126,16 @@ const Indianfood = () => {
 
   return (
     <div className="App2">
+      <div className="preload">
+        <img src={emptypic} />
+        <img src={cpt} />
+        <img src={nb} />
+        <img src={rc} />
+        <img src={cptnb} />
+        <img src={rccpt} />
+        <img src={rcnb} />
+        <img src={all} />
+      </div>
       <div>
         <IndianfoodImage
           src={image}

@@ -24,7 +24,7 @@ export default class IndianartsImage extends Component {
     if (newSrc !== oldSrc) {
       // Reset the component everytime we receive new prop, to
       // cancel out any animation that's still going on
-      this.setState({ bottomSrc: false, topSrc: true }, () =>
+      this.setState({ bottomSrc: false, topSrc: false }, () =>
         this.setState(
           // Opacity less than 1 takes precendence in stacking order
           { bottomSrc: oldSrc, topSrc: newSrc, bottomOpacity: 0.99 },

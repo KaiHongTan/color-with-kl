@@ -75,6 +75,12 @@ const Indianarts = () => {
 
   return (
     <div className="App2">
+      <div className="preload">
+        <img src={emptypic} />
+        <img src={henna} />
+        <img src={kolam} />
+        <img src={all} />
+      </div>
       <div>
         <IndianartsImage
           src={image}

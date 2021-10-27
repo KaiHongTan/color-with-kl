@@ -75,6 +75,12 @@ const Indiancostume = () => {
 
   return (
     <div className="App2">
+      <div className="preload">
+        <img src={emptypic} />
+        <img src={kurta} />
+        <img src={sari} />
+        <img src={all} />
+      </div>
       <div>
         <IndiancostumeImage
           src={image}
