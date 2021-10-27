@@ -106,8 +106,8 @@ export default class IndianfoodImage extends Component {
               印度薄餅是一道以全麦面粉制成的大饼，也称为 Gehu Ka
               Atta。它在“Mamak”（印度穆斯林）餐饮摊位餐单里广泛被点餐。
               <p />
-              印度薄餅是一種由印第安人用石磨全麥麵粉製成的大餅，也稱為 Gehu Ka
-              Atta。它可以在“Mamak”（印度穆斯林）攤位上廣泛看到和訂購。{" "}
+              印度薄餅是一道以全麥麵粉製成的大餅，也稱為 Gehu Ka
+              Atta。它在“Mamak”（印度穆斯林）餐飲攤位餐單裡廣泛被點餐。
             </div>
           </ReactTooltip>
         )}

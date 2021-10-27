@@ -106,7 +106,7 @@ export default class IndiancostumeImage extends Component {
             <div>
               <p />
               库尔塔睡衣是由称为 kurta 的上衣和称为pyjama的下装睡衣组成。 Kurta
-              这词可用于指定代男装和女装。据说这种服装起源于印度次大陆，因此地区关系而形成服装差异是件常见的事。。
+              这词可用于指定代男装和女装。据说这种服装起源于印度次大陆，因此地区关系而形成服装差异是件常见的事。
             </div>
             <div>
               <p />

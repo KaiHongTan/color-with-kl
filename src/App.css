@@ -116,6 +116,9 @@ h2 {
   justify-content: center;
   margin-bottom: 1rem;
 }
+.preload {
+  display: none;
+}
 
 .color-swatch {
   height: 40px;
