@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.1.1",
     "drag-drop-webkit-mobile": "^1.4.1",
+    "heroku-self-ping": "^2.0.1",
     "image-map-resizer": "^1.0.10",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-rc.0",
