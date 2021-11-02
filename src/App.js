@@ -17,10 +17,6 @@ import Chinesefood from "./Chinesefood";
 import ScriptTag from "react-script-tag";
 
 const App = () => {
-  var iosDragDropShim = require("drag-drop-webkit-mobile");
-  const Demo = (props) => (
-    <ScriptTag type="text/javascript" src="./DragDropTouch.js" />
-  );
   var [showmenu, setshowmenu] = useState(true);
   var [showkl, setshowkl] = useState(true);
   var [showshopping, setshowshopping] = useState(false);
