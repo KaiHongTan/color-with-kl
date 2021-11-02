@@ -15,7 +15,9 @@ export default class IndianfoodImage extends Component {
       bottomSrc: props.src,
     };
   }
-
+  componentDidMount() {
+    imageMapResize();
+  }
   componentWillReceiveProps(newProps) {
     const oldSrc = this.state.topSrc;
     const newSrc = newProps.src;
