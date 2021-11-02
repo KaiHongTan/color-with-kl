@@ -196,9 +196,10 @@ export default class MalayfoodImage extends Component {
           </ReactTooltip>
         )}
 
-        <map name="map" dragging={false} tap={false}>
-          <div data-tip data-for="ktp">
+        <map name="map" dragging={false} tap={false} draggable="false">
+          <div data-tip data-for="ktp" draggable="false">
             <area
+              draggable="false"
               target=""
               alt=""
               onDrop={(event) => this.props.dropktp(event)}
@@ -208,8 +209,9 @@ export default class MalayfoodImage extends Component {
               shape="poly"
             />
           </div>
-          <div data-tip data-for="nl">
+          <div data-tip data-for="nl" draggable="false">
             <area
+              draggable="false"
               target=""
               alt=""
               onDrop={(event) => this.props.dropnl(event)}
@@ -219,8 +221,9 @@ export default class MalayfoodImage extends Component {
               shape="poly"
             ></area>
           </div>
-          <div data-tip data-for="rj">
+          <div data-tip data-for="rj" draggable="false">
             <area
+              draggable="false"
               target=""
               alt=""
               onDrop={(event) => this.props.droprj(event)}

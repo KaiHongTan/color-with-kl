@@ -144,9 +144,10 @@ export default class ChinesecostumeImage extends Component {
           </ReactTooltip>
         )}
 
-        <map name="map" dragging={false} tap={false}>
-          <div data-tip data-for="kltower">
+        <map name="map" dragging={false} tap={false} draggable="false">
+          <div data-tip data-for="kltower" draggable="false">
             <area
+              draggable="false"
               target=""
               alt=""
               onDrop={(event) => this.props.dropcs(event)}
@@ -156,8 +157,9 @@ export default class ChinesecostumeImage extends Component {
               shape="poly"
             />
           </div>
-          <div data-tip data-for="matrade">
+          <div data-tip data-for="matrade" draggable="false">
             <area
+              draggable="false"
               target=""
               alt=""
               onDrop={(event) => this.props.dropts(event)}

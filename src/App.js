@@ -100,21 +100,25 @@ const App = () => {
   };
 
   return (
-    <div>
-      <div className="mainbody margin">
+    <div draggable="false">
+      <div className="mainbody margin" draggable="false">
         <Header />
-        <div>
-          <a className="sidetxt center" href="https://bewithkualalumpur.com">
+        <div draggable="false">
+          <a
+            className="sidetxt center"
+            href="https://bewithkualalumpur.com"
+            draggable="false"
+          >
             Return to main site
           </a>
         </div>
       </div>
-      <Stack gap={5}>
-        <div className="container">
+      <Stack gap={5} draggable="false">
+        <div className="container" draggable="false">
           <Row>
             <Col sm={4}>
               <div className="mobnav" onClick={toggleMenu}>
-                <div className="sidetxt center mobnav">
+                <div className="sidetxt center mobnav" draggable="false">
                   <br />
                   <div className="">
                     <div className="hamburger"></div>
@@ -277,20 +281,27 @@ const App = () => {
                 </Stack>
               </div>
             </Col>
-            <Col sm={8} className="container-fluid border mainwindow">
-              {showkl ? <Kualalumpur /> : null}
-              {showshopping ? <Shopping /> : null}
-              {showmalayfood ? <Malayfood /> : null}
-              {showmalayarts ? <Malayarts /> : null}
-              {showmalaycostume ? <Malaycostume /> : null}
-              {showchinesefood ? <Chinesefood /> : null}
-              {showchinesearts ? <Chinesearts /> : null}
-              {showchinesecostume ? <Chinesecostume /> : null}
-              {showindianfood ? <Indianfood /> : null}
-              {showindianarts ? <Indianarts /> : null}
-              {showindiancostume ? <Indiancostume /> : null}
+            <Col
+              sm={8}
+              className="container-fluid border mainwindow"
+              draggable="false"
+            >
+              {showkl ? <Kualalumpur draggable="false" /> : null}
+              {showshopping ? <Shopping draggable="false" /> : null}
+              {showmalayfood ? <Malayfood draggable="false" /> : null}
+              {showmalayarts ? <Malayarts draggable="false" /> : null}
+              {showmalaycostume ? <Malaycostume draggable="false" /> : null}
+              {showchinesefood ? <Chinesefood draggable="false" /> : null}
+              {showchinesearts ? <Chinesearts draggable="false" /> : null}
+              {showchinesecostume ? <Chinesecostume draggable="false" /> : null}
+              {showindianfood ? <Indianfood draggable="false" /> : null}
+              {showindianarts ? <Indianarts draggable="false" /> : null}
+              {showindiancostume ? <Indiancostume draggable="false" /> : null}
 
-              <div className="container-fluid border center sidetxt">
+              <div
+                className="container-fluid border center sidetxt"
+                draggable="false"
+              >
                 <strong>Instructions:</strong>
                 <p />
                 <div>1. Select an image to colour and learn about.</div>

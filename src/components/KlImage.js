@@ -249,9 +249,10 @@ export default class KlImage extends Component {
           </ReactTooltip>
         )}
 
-        <map name="map" dragging={false} tap={false}>
-          <div data-tip data-for="kltower">
+        <map name="map" dragging={false} tap={false} draggable="false">
+          <div data-tip data-for="kltower" draggable="false">
             <area
+              draggable="false"
               target=""
               alt=""
               onDrop={(event) => this.props.dropklt(event)}
@@ -261,8 +262,9 @@ export default class KlImage extends Component {
               shape="poly"
             />
           </div>
-          <div data-tip data-for="matrade">
+          <div data-tip data-for="matrade" draggable="false">
             <area
+              draggable="false"
               target=""
               alt=""
               onDrop={(event) => this.props.dropmatrade(event)}
@@ -272,8 +274,9 @@ export default class KlImage extends Component {
               shape="poly"
             ></area>
           </div>
-          <div data-tip data-for="mitec">
+          <div data-tip data-for="mitec" draggable="false">
             <area
+              draggable="false"
               target=""
               alt=""
               onDrop={(event) => this.props.dropmitec(event)}
@@ -283,8 +286,9 @@ export default class KlImage extends Component {
               shape="poly"
             ></area>
           </div>
-          <div data-tip data-for="tt">
+          <div data-tip data-for="tt" draggable="false">
             <area
+              draggable="false"
               target=""
               alt=""
               onDrop={(event) => this.props.droptt(event)}

@@ -155,9 +155,10 @@ export default class IndianartsImage extends Component {
           </ReactTooltip>
         )}
 
-        <map name="map" dragging={false} tap={false}>
-          <div data-tip data-for="kltower">
+        <map name="map" dragging={false} tap={false} draggable="false">
+          <div data-tip data-for="kltower" draggable="false">
             <area
+              draggable="false"
               target=""
               alt=""
               onDrop={(event) => this.props.drophenna(event)}
@@ -167,8 +168,9 @@ export default class IndianartsImage extends Component {
               shape="poly"
             />
           </div>
-          <div data-tip data-for="matrade">
+          <div data-tip data-for="matrade" draggable="false">
             <area
+              draggable="false"
               target=""
               alt=""
               onDrop={(event) => this.props.dropkolam(event)}
