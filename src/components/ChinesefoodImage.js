@@ -15,12 +15,7 @@ export default class ChinesefoodImage extends Component {
       bottomSrc: props.src,
     };
   }
-  componentDidMount() {
-    imageMapResize();
-  }
-  componentDidUpdate() {
-    imageMapResize();
-  }
+
   componentWillReceiveProps(newProps) {
     const oldSrc = this.state.topSrc;
     const newSrc = newProps.src;
