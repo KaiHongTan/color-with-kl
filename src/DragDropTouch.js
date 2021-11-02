@@ -460,7 +460,7 @@ var DragDropTouch;
   DragDropTouch._PRESSHOLDMARGIN = 25; // pixels that finger might shiver while pressing
   DragDropTouch._PRESSHOLDTHRESHOLD = 0; // pixels to move before drag starts
   // copy styles/attributes from drag source to drag image element
-  DragDropTouch._rmvAtts = "id,class,style,draggable".split(",");
+  DragDropTouch._rmvAtts = "id,class,style,draggable,coords".split(",");
   // synthesize and dispatch an event
   // returns true if the event has been handled (e.preventDefault == true)
   DragDropTouch._kbdProps = "altKey,ctrlKey,metaKey,shiftKey".split(",");
