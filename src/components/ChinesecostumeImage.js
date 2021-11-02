@@ -144,7 +144,7 @@ export default class ChinesecostumeImage extends Component {
           </ReactTooltip>
         )}
 
-        <map name="map" dragging={false}>
+        <map name="map" dragging={false} tap={false}>
           <div data-tip data-for="kltower">
             <area
               target=""

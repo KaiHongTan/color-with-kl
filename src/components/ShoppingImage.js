@@ -163,7 +163,7 @@ export default class ShoppingImage extends Component {
           </ReactTooltip>
         )}
 
-        <map name="map" dragging={false}>
+        <map name="map" dragging={false} tap={false}>
           <div data-tip data-for="kltower">
             <area
               target=""

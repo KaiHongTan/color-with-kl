@@ -196,7 +196,7 @@ export default class MalayfoodImage extends Component {
           </ReactTooltip>
         )}
 
-        <map name="map" dragging={false}>
+        <map name="map" dragging={false} tap={false}>
           <div data-tip data-for="ktp">
             <area
               target=""
