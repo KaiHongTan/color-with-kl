@@ -18,6 +18,9 @@ export default class ChineseartsImage extends Component {
   componentDidMount() {
     imageMapResize();
   }
+  componentDidUpdate() {
+    imageMapResize();
+  }
 
   componentWillReceiveProps(newProps) {
     const oldSrc = this.state.topSrc;

@@ -18,6 +18,10 @@ export default class IndianartsImage extends Component {
   componentDidMount() {
     imageMapResize();
   }
+  componentDidUpdate() {
+    imageMapResize();
+  }
+
   componentWillReceiveProps(newProps) {
     const oldSrc = this.state.topSrc;
     const newSrc = newProps.src;
