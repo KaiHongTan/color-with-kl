@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import App from "../App";
-import imageMapResize from "../imageMapResizer";
+import imageMapResize from "../image-map-resizer";
 import popover from "../App";
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 import ReactTooltip from "react-tooltip";
