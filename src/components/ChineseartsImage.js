@@ -18,6 +18,7 @@ export default class ChineseartsImage extends Component {
   componentDidMount() {
     imageMapResize();
   }
+
   componentWillReceiveProps(newProps) {
     const oldSrc = this.state.topSrc;
     const newSrc = newProps.src;
@@ -202,7 +203,7 @@ export default class ChineseartsImage extends Component {
           </ReactTooltip>
         )}
 
-        <map name="map">
+        <map name="map" dragging={false}>
           <div data-tip data-for="ktp">
             <area
               target=""

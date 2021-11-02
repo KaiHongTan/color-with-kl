@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, FunctionComponent } from "react";
 import Kualalumpur from "./Kualalumpur";
 import Shopping from "./Shopping";
 import "./App.css";
